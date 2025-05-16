@@ -1,0 +1,157 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 40px;
+}
+
+.card {
+  width: 300px;
+  min-height: 380px;
+  background-color: white;
+  border-radius: 16px;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.icon svg {
+  font-size: 36px;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* SIDE CARD STYLES */
+.side-card .icon {
+  background-color: rgb(7, 35, 102);
+}
+
+.side-card .icon svg {
+  color: white;
+}
+
+.side-card h3 {
+  color: rgb(7, 35, 102);
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.side-card p {
+  color: rgb(70, 77, 101);
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.side-card:hover {
+  background-color: rgb(59, 130, 246);
+}
+
+.side-card:hover h3,
+.side-card:hover p {
+  color: white;
+}
+
+.side-card:hover .icon {
+  background-color: white;
+}
+
+.side-card:hover .icon svg {
+  color: rgb(7, 35, 102);
+}
+
+/* MIDDLE CARD STYLES */
+.middle-card {
+  background-color: rgb(59, 130, 246);
+  pointer-events: none;
+}
+
+.middle-card h3{
+  color: white;
+   font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+}
+.middle-card p {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.middle-card .icon {
+  background-color: white;
+}
+
+.middle-card .icon svg {
+  color: rgb(7, 35, 102);
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 400px;
+  }
+}
+@media (max-width: 1024px) {
+  .card {
+    width: 45%; /* Two cards per row on tablet */
+  }
+}
+/* Fade-in and slide-up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0; /* Start hidden until animation triggers */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+
+
