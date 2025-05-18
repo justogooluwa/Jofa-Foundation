@@ -7,6 +7,7 @@ import Footer from "./Components/Footeer";
 import LatestCauses from "./Pages/LatestCauses";
 import Contact from "./Pages/Contact";
 import ScrollToTop from "./Components/ScrollToTop";
+import "./App.css";
 
 function App() {
   return (

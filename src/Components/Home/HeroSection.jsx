@@ -2,7 +2,7 @@ import about1 from "../../img/gallery/about1.png";
 import "./HeroSection.css";
 function HeroSection() {
   return (
-    <div className="herosection">
+    <div className="herosection animate-fade-in-up">
       <div className="hero">
         <span>
           We Are On A Mission To Help The Helpless We Empower Communities Toward
