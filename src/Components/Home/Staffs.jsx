@@ -1,14 +1,17 @@
 import "./Staffs.css";
-import team1 from "../../img/gallery/team1.png";
-import team2 from "../../img/gallery/team2.png";
-import team3 from "../../img/gallery/team3.png";
-import team4 from "../../img/gallery/team4.png";
+import AOS from "aos";
+import "aos/dist/aos.css"; // AOS styles
+import { useEffect } from "react";
+import team1 from "../../img/gallery/staff1.jpg";
+import team2 from "../../img/gallery/team6.jpg";
+import team3 from "../../img/gallery/staff3.jpg";
+import team4 from "../../img/gallery/staff4.jpg";
 
 const staffs = [
   {
     id: 1,
     image: team1,
-    name: "Adebolu Bisi Fatunsin",
+    name: "Adebolu Femi",
     position: "Chief Executive Officer",
   },
   {
@@ -26,21 +29,24 @@ const staffs = [
   {
     id: 4,
     image: team4,
-    name: "Akinleye Toluwani Akindeji",
+    name: "Fatunsin Adebisi Gideon",
     position: "Team Leader",
   },
 ];
 
 function Staffs() {
+  useEffect(() => {
+    AOS.init({ duration: 2000, once: false }); // `once: false` = animate every time
+  }, []);
   return (
     <>
       <div className="gaps">
         <div className="staff-txt">
           <span>HOW WE DO IT</span>
-          <h1>Our Trusties</h1>
+          <h1>Our Trustees</h1>
         </div>
 
-        <div className="staff-img">
+        <div className="staff-img" data-aos="flip-left">
           {staffs.map((staff) => (
             <div className="staff-card" key={staff.id}>
               <img src={staff.image} alt={staff.name} />

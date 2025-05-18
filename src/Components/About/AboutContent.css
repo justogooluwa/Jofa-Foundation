@@ -1,0 +1,41 @@
+.objective{
+    padding: 0px 25px;
+    margin-top: 80px;
+}
+.objective p{
+    color: rgb(7, 35, 102);
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.5;
+}
+.objective ul{
+   line-height: 1.6;
+   color: rgb(70, 77, 101);
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.objective h1{
+   line-height: 1.6;
+   color: rgb(70, 77, 101);
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.objective h2{
+   line-height: 1.6;
+   color: rgb(70, 77, 101);
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.about-text ul{
+  color: rgb(70 77 101);
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  padding-left: 15px;
+}

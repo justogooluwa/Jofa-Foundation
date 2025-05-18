@@ -1,0 +1,59 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+.divide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px; /* space between image and text */
+  padding: 40px;
+  margin-bottom: 100px;
+}
+
+.about-img {
+  flex: 1;
+}
+
+.about-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.case-text {
+  flex: 1;
+}
+
+.case-text span {
+  color: rgb(59 130 246);
+   font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.case-text h1 {
+  color: rgb(7 35 102);
+  font-weight: 800;
+  font-size: 30px;
+  font-family: "Mulish", sans-serif;
+  margin: 10px 0;
+}
+
+.case-text p {
+  color: rgb(70 77 101);
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+}
+
+.btn {
+    font-size: 15px;    
+    font-family: "Sansation", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    color: white;        
+    background-color: rgb(59 130 246);
+    padding: 18px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}

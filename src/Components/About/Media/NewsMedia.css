@@ -1,0 +1,78 @@
+.moment{
+    padding-left: 30px;
+}
+
+.moment span{
+     color: rgb(59 130 246);
+   font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 3;
+}
+
+.moment p{
+  line-height: 1.6;
+  color: rgb(70, 77, 101);
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.img-section1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px; /* space between images */
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.img-section1 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* optional, for nicer look */
+}
+
+.img-section2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px; /* space between images */
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.img-section2 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* optional, for nicer look */
+}
+.img-section3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px; /* space between images */
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.img-section3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px; /* optional, for nicer look */
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.image-fade {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+

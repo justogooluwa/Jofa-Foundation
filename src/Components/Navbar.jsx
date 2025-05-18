@@ -35,9 +35,11 @@ function Navbar() {
         </NavLink>
       </div>
 
-      <button className="donate" onClick={() => setIsOpen(false)}>
-        Contact Us
-      </button>
+      <a href="/Contact">
+        <button className="donate" onClick={() => setIsOpen(false)}>
+          Contact Us
+        </button>
+      </a>
     </div>
   );
 }

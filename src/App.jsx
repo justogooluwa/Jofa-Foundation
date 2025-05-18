@@ -5,16 +5,20 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Footer from "./Components/Footeer";
 import LatestCauses from "./Pages/LatestCauses";
+import Contact from "./Pages/Contact";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/causes" element={<LatestCauses />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

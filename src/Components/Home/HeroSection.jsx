@@ -9,7 +9,9 @@ function HeroSection() {
           Self-Determination And Dignity
         </span>
         <div>
-          <button className="btn">Learn More</button>
+          <a href="/about">
+            <button className="btn">Learn More</button>
+          </a>
         </div>
       </div>
       <div className="hero-img">

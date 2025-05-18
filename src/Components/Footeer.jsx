@@ -17,9 +17,9 @@ function Footer() {
 
         <div className="footer-column">
           <h3>Contact Info</h3>
-          <p>Address: 4, Joel Adebolus Street Ikorodu Lagos</p>
+          <p>Address: 3, Joel Adebolu Street Ikorodu Lagos State</p>
           <p>Phone: 09031455536</p>
-          <p>Email: ogooluwaakinleye29@gmail.com</p>
+          <p>Email: jofafoundations@gmail.com</p>
         </div>
 
         <div className="footer-column">

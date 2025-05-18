@@ -1,22 +1,22 @@
 import React from "react";
-import { FaDesktop, FaBrain, FaCog } from "react-icons/fa";
+import { FaWallet, FaGavel, FaCog } from "react-icons/fa";
 import "./Cards.css";
 
 const cardsData = [
   {
-    icon: <FaDesktop size={40} />,
-    title: "Clean Water",
-    text: "The sea freight service has grown considerably in recent years. We spend timetting to know your processes to.",
+    icon: <FaGavel size={40} />,
+    title: "Governance",
+    text: "The Chief Executive Officer And Director Directs The Activities of JOFA Foundation As Laid Down By The Board of Trustees As Well As Enforces The Rules Guiding The Policies, Processes, Rules, And Regulations.",
   },
   {
-    icon: <FaBrain size={40} />,
-    title: "Clean Water",
-    text: "The sea freight service has grown considerably in recent years. We spend timetting to know your processes to.",
+    icon: <FaWallet size={40} />,
+    title: "Finance",
+    text: "JOFA Foundations Are Funded Through Lawful And Credible Individuals And Bodies.The Organization Shall Have Account With Any Bank In Nigeria",
   },
   {
     icon: <FaCog size={40} />,
-    title: "Clean Water",
-    text: "The sea freight service has grown considerably in recent years. We spend timetting to know your processes to.",
+    title: "Institution Planning",
+    text: "There shall be Annual General Meeting, Quarterly Meeting, Monthly Meeting and Emergency Meeting of The Foundation. For Effective Administration Of The Association.",
   },
 ];
 
