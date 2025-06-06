@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutContent.css";
+import officeImg from "../../img/Jofa Foundation/83.jpg";
 
 function AboutContent() {
   return (
@@ -34,6 +35,11 @@ function AboutContent() {
           <li>To Enhance Creativity And Innovations In Mankind</li>
           <li>To Promote Good Relationship Among The Members</li>
         </ul>
+      </div>
+
+      <div className="office">
+        <p>Our Office Address: 3, Joel Adebolu Street Ikorodu Lagos State </p>
+        <img src={officeImg} alt="" />
       </div>
     </>
   );

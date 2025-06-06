@@ -5,9 +5,16 @@ import { useEffect } from "react";
 import team1 from "../../img/gallery/staff1.jpg";
 import team2 from "../../img/gallery/team6.jpg";
 import team3 from "../../img/gallery/staff3.jpg";
-import team4 from "../../img/gallery/staff4.jpg";
+import team4 from "../../img/Jofa Foundation/87.jpg";
+import team5 from "../../img/Jofa Foundation/69.jpg";
 
 const staffs = [
+  {
+    id: 5,
+    image: team5,
+    name: "Fatunsin Adeleye Ezeikel",
+    position: "Chief Executive Officer",
+  },
   {
     id: 1,
     image: team1,
@@ -23,7 +30,7 @@ const staffs = [
   {
     id: 3,
     image: team3,
-    name: "Akinleye Ogooluwa Joshua",
+    name: "Babatunde Akinlabi Athony",
     position: "Volunteer Jofa Foundation",
   },
   {
